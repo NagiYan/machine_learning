@@ -2,860 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91ee44b-4e24-4e82-a716-39471ed41cdd" name="Default" comment="朴素贝叶斯实现">
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/.idea/python.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/common.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/data_train" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/knn.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/native_bayesian.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/.Python" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/activate" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/activate.csh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/activate.fish" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/activate_this.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/easy_install" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/easy_install-2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/pip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/pip2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/pip2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/python" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/python-config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/python2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/python2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/bin/wheel" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/include/python2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/UserDict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/_abcoll.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/_weakrefset.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/abc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/codecs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/copy_reg.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/distutils/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/distutils/distutils.cfg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/encodings" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/fnmatch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/genericpath.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/lib-dynload" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/linecache.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/locale.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/no-global-site-packages.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/ntpath.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/orig-prefix.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/os.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/posixpath.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/re.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/easy_install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/__main__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/appdirs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/adapter.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/cache.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/filewrapper.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/colorama/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/colorama/initialise.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/colorama/win32.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/colorama/winterm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/misc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/database.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/index.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/locators.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/manifest.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/markers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/metadata.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/resources.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/t32.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/t64.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/util.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/version.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/w32.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/w64.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distlib/wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/distro.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_ihatexml.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_inputstream.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_tokenizer.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/_base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/datrie.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/py.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/serializer.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/ipaddress.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/linklockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/pidlockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/symlinklockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/ordereddict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__about__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_structures.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/markers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/requirements.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/packaging/version.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/progress/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/progress/bar.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/progress/counter.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/progress/helpers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/progress/spinner.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/pyparsing.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/re-vendor.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/adapters.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/api.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/auth.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/cacert.pem" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/certs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/cookies.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/exceptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/hooks.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/big5freq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/big5prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/chardetect.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/chardistribution.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/charsetgroupprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/charsetprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/codingstatemachine.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/constants.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/cp949prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/escprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/escsm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/eucjpprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euckrfreq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euckrprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euctwfreq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euctwprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/gb2312freq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/gb2312prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/jisfreq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/jpcntx.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langbulgarianmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langcyrillicmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langgreekmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langhebrewmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langhungarianmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langthaimodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/latin1prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcharsetprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcsgroupprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcssm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sbcharsetprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sbcsgroupprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sjisprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/universaldetector.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/utf8prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/socks.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/six.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/response.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/retry.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/sessions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/status_codes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/structures.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/requests/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/retrying.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/six.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/labels.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/mklabels.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/basecommand.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/baseparser.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/cmdoptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/check.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/completion.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/download.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/freeze.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/hash.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/help.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/list.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/search.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/show.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/uninstall.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/commands/wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/compat/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/compat/dictconfig.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/download.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/exceptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/index.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/locations.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/models/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/models/index.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/operations/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/operations/check.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/operations/freeze.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/pep425tags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/req/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/req/req_file.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/req/req_install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/req/req_set.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/req/req_uninstall.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/status_codes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/appdirs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/build.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/deprecation.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/encoding.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/filesystem.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/glibc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/hashes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/logging.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/outdated.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/packaging.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/setuptools_build.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/utils/ui.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/vcs/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/vcs/bazaar.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/vcs/git.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/vcs/mercurial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/vcs/subversion.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pip/wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/appdirs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/markers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/version.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/_vendor/six.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/extern/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/pkg_resources/py31compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/dependency_links.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/zip-safe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/archive_util.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/build_meta.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/cli-32.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/cli-64.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/cli.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/alias.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/bdist_egg.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/bdist_rpm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/bdist_wininst.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/build_clib.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/build_ext.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/build_py.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/develop.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/dist_info.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/easy_install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/egg_info.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/install_egg_info.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/install_lib.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/install_scripts.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/launcher manifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/py36compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/register.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/rotate.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/saveopts.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/sdist.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/setopt.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/upload.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/command/upload_docs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/config.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/dep_util.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/depends.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/dist.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/extension.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/extern/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/glibc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/glob.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/gui-32.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/gui-64.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/gui.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/launch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/lib2to3_ex.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/monkey.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/msvc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/namespaces.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/package_index.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/pep425tags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/py27compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/py31compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/py33compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/py36compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/sandbox.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/script (dev).tmpl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/script.tmpl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/site-patch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/ssl_support.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/unicode_utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/version.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/setuptools/windows_support.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/__main__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/archive.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/bdist_wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/decorator.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/egg2wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/metadata.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/paths.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/pep425tags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/pkginfo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/signatures/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/signatures/djbec.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/signatures/ed25519py.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/signatures/keys.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/tool/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/util.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site-packages/wheel/wininst2wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/site.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/sre.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/sre_compile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/sre_constants.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/sre_parse.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/stat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/types.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/lib/python2.7/warnings.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../native_bayesian/venv/pip-selfcheck.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/.idea/number.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/number.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/.Python" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/activate" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/activate.csh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/activate.fish" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/activate_this.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/easy_install" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/easy_install-2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/pip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/pip2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/pip2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/python" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/python-config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/python2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/python2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/bin/wheel" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/include/python2.7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/UserDict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/_abcoll.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/_weakrefset.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/abc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/codecs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/config" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/copy_reg.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/distutils/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/distutils/distutils.cfg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/encodings" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/fnmatch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/genericpath.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/lib-dynload" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/linecache.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/locale.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/no-global-site-packages.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/ntpath.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/orig-prefix.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/os.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/posixpath.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/re.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/easy_install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/__main__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/appdirs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/adapter.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/cache.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/filewrapper.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/colorama/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/colorama/initialise.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/colorama/win32.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/colorama/winterm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/misc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/database.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/index.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/locators.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/manifest.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/markers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/metadata.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/resources.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/t32.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/t64.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/util.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/version.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/w32.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/w64.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distlib/wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/distro.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_ihatexml.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_inputstream.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_tokenizer.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/_base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/datrie.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/py.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/constants.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/serializer.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/ipaddress.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/linklockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/pidlockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/symlinklockfile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/ordereddict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__about__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_structures.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/markers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/requirements.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/packaging/version.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/progress/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/progress/bar.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/progress/counter.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/progress/helpers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/progress/spinner.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/pyparsing.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/re-vendor.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/adapters.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/api.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/auth.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/cacert.pem" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/certs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/cookies.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/exceptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/hooks.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/big5freq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/big5prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/chardetect.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/chardistribution.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/charsetgroupprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/charsetprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/codingstatemachine.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/constants.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/cp949prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/escprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/escsm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/eucjpprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euckrfreq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euckrprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euctwfreq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euctwprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/gb2312freq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/gb2312prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/jisfreq.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/jpcntx.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langbulgarianmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langcyrillicmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langgreekmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langhebrewmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langhungarianmodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langthaimodel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/latin1prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcharsetprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcsgroupprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcssm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sbcharsetprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sbcsgroupprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sjisprober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/universaldetector.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/utf8prober.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/connection.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/socks.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/fields.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/six.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/request.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/response.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/request.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/response.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/retry.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/url.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/sessions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/status_codes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/structures.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/requests/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/retrying.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/six.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/labels.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/mklabels.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/basecommand.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/baseparser.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/cmdoptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/check.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/completion.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/download.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/freeze.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/hash.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/help.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/list.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/search.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/show.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/uninstall.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/commands/wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/compat/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/compat/dictconfig.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/download.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/exceptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/index.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/locations.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/models/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/models/index.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/operations/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/operations/check.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/operations/freeze.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/pep425tags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/req/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/req/req_file.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/req/req_install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/req/req_set.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/req/req_uninstall.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/status_codes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/appdirs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/build.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/deprecation.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/encoding.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/filesystem.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/glibc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/hashes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/logging.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/outdated.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/packaging.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/setuptools_build.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/utils/ui.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/vcs/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/vcs/bazaar.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/vcs/git.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/vcs/mercurial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/vcs/subversion.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pip/wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/appdirs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__about__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/markers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/version.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/_vendor/six.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/extern/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/pkg_resources/py31compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/dependency_links.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools-38.2.4.dist-info/zip-safe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/archive_util.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/build_meta.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/cli-32.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/cli-64.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/cli.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/alias.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/bdist_egg.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/bdist_rpm.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/bdist_wininst.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/build_clib.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/build_ext.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/build_py.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/develop.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/dist_info.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/easy_install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/egg_info.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/install_egg_info.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/install_lib.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/install_scripts.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/launcher manifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/py36compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/register.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/rotate.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/saveopts.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/sdist.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/setopt.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/upload.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/command/upload_docs.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/config.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/dep_util.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/depends.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/dist.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/extension.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/extern/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/glibc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/glob.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/gui-32.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/gui-64.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/gui.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/launch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/lib2to3_ex.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/monkey.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/msvc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/namespaces.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/package_index.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/pep425tags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/py27compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/py31compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/py33compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/py36compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/sandbox.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/script (dev).tmpl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/script.tmpl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/site-patch.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/ssl_support.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/unicode_utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/version.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/setuptools/windows_support.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/__main__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/archive.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/bdist_wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/decorator.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/egg2wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/install.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/metadata.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/paths.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/pep425tags.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/pkginfo.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/signatures/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/signatures/djbec.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/signatures/ed25519py.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/signatures/keys.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/tool/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/util.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site-packages/wheel/wininst2wheel.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/site.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/sre.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/sre_compile.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/sre_constants.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/sre_parse.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/stat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/types.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/lib/python2.7/warnings.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../number/venv/pip-selfcheck.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" afterPath="$PROJECT_DIR$/.idea/python.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ann.py" afterPath="$PROJECT_DIR$/ann.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -869,7 +19,8 @@
     <SUITE FILE_PATH="coverage/native_bayesian$ann.coverage" NAME="ann Coverage Results" MODIFIED="1515305525734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/native_bayesian$knn.coverage" NAME="knn Coverage Results" MODIFIED="1515305299921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/native_bayesian$native_bayesian.coverage" NAME="native_bayesian Coverage Results" MODIFIED="1515305242882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/anintroduction_to_ml$ann.coverage" NAME="ann Coverage Results" MODIFIED="1515305660378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/anintroduction_to_ml$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1515306653907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/anintroduction_to_ml$ann.coverage" NAME="ann Coverage Results" MODIFIED="1515313238409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/native_bayesian$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1515305347802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/anintroduction_to_ml$number.coverage" NAME="number Coverage Results" MODIFIED="1515305656427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$native_bayesian.coverage" NAME="native_bayesian Coverage Results" MODIFIED="1513743689843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -879,8 +30,30 @@
       <file leaf-file-name="ann.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ann.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="90">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_train" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_train">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -900,6 +73,7 @@
       <find>print</find>
       <find>import random</find>
       <find>random</find>
+      <find>count_output</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -911,7 +85,6 @@
         <option value="$PROJECT_DIR$/data" />
         <option value="$PROJECT_DIR$/venv/knn.py" />
         <option value="$PROJECT_DIR$/data_check" />
-        <option value="$PROJECT_DIR$/data_train" />
         <option value="$PROJECT_DIR$/knn.py" />
         <option value="$PROJECT_DIR$/native_bayesian.py" />
         <option value="$PROJECT_DIR$/perceptron_train_data" />
@@ -923,6 +96,7 @@
         <option value="$PROJECT_DIR$/data_test_adult" />
         <option value="$PROJECT_DIR$/polynomial.py" />
         <option value="$PROJECT_DIR$/perceptron.py" />
+        <option value="$PROJECT_DIR$/data_train" />
         <option value="$PROJECT_DIR$/ann.py" />
       </list>
     </option>
@@ -934,10 +108,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3177" />
-    <option name="y" value="179" />
+    <option name="x" value="-2762" />
+    <option name="y" value="86" />
     <option name="width" value="2560" />
-    <option name="height" value="990" />
+    <option name="height" value="1243" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -963,8 +137,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="native_bayesian" type="b2602c69:ProjectViewProjectNode" />
-              <item name="native_bayesian" type="462c0819:PsiDirectoryNode" />
+              <item name="anintroduction_to_ml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anintroduction_to_ml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -975,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/nagi/Documents/Project/machine_learning/machine_learning/native_bayesian/native_bayesian.py" />
   </component>
   <component name="RecentsManager">
@@ -995,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.perceptron">
+  <component name="RunManager" selected="Python.ann">
     <configuration name="ann" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1116,21 +290,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3177" y="179" width="2560" height="990" extended-state="0" />
+    <frame x="-2762" y="86" width="2560" height="1243" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19825707" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25448334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2734375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24335937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39811912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39795047" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1156,7 +330,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1176,6 +350,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,6 +393,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,20 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_train_temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_train_audlt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-674">
@@ -1292,20 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_train">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="30" lean-forward="false" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_train_perceptron">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1337,18 +485,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_train_perceptron">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_train_polynomial">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_train_temp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_train">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ann.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
